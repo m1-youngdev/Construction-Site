@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Counter from "../components/Counter";
 import { services } from "../data/services";
@@ -18,7 +17,7 @@ function Home() {
         className="hero relative h-screen bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-[#101F3D] bg-opacity-70"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
         <div className="relative z-10 flex flex-col h-full items-center justify-center">
           <h1 className="text-center font-space font-bold text-[20px] text-[#CBD5E1]">
             Building Infrastructure, Energy & Real Estate Solutions Across

@@ -4,11 +4,11 @@ import { MdMail } from "react-icons/md";
 function Footer() {
   return (
     <>
-      <footer>
-        <div className="footer p-5 bg-[#365CB8] mt-5 flex flex-col">
+      <footer className="bg-[#365CB8]">
+        <div className="footer p-5 bg-[#365CB8] mt-5 flex flex-col lg:flex-row lg:justify-around lg:items-center">
           <div className="footerLogo mb-3">
             <a href="#">
-              <h1 className="font-space text-2xl font-bold">CONSTRUCTION</h1>
+              <h1 className="font-space text-2xl font-bold text-[#DAA520]">CONSTRUCTION</h1>
             </a>
           </div>
 
@@ -35,8 +35,10 @@ function Footer() {
             </p>
           </div>
 
-          <div className="socials flex justify-center mb-5">
-            <ul className="text-4xl flex gap-6">
+       
+        </div>
+           <div className="socials w-full flex justify-center pb-5">
+            <ul className="text-4xl flex gap-6 text-[#DAA520]">
               <a href="">
                 {" "}
                 <li>
@@ -59,7 +61,6 @@ function Footer() {
               </a>
             </ul>
           </div>
-        </div>
       </footer>
     </>
   );

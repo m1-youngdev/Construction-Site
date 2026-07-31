@@ -23,7 +23,7 @@ function FeaturedProjects() {
 
   return (
     <>
-      <div className="projectCard p-8 flex flex-col justify-center items-center">
+      <div className="projectCard max-w-screen p-8 flex flex-col justify-center items-center">
         <h2 className="font-space text-2xl font-bold mb-4 text-[#000]">Projects</h2>
         <div className="hidden lg:flex gap-4">
           {projects.map((project) => (
