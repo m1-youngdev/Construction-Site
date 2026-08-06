@@ -91,41 +91,41 @@ function About() {
         </div>
 
         <div className="whyChooseUs grid grid-cols-1 place-items-center gap-5 lg:grid-cols-3">
-          <div className="wcuCard flex flex-col items-center py-5 px-10 shadow-md shadow-[#365CB8] rounded-lg">
+          <div className="wcuCard flex flex-col items-center py-5 px-10">
             <div className="w-16 h-16 rounded-full bg-[#DAA520]/10 flex items-center justify-center mb-5">
               <FaUserTie className="text-[#DAA520] text-3xl" />
             </div>
-            <h2>Experienced Professionals</h2>
+            <h2 className="font-space text-2xl font-semibold">Experienced Professionals</h2>
           </div>
-          <div className="wcuCard flex flex-col items-center py-5 px-10 shadow-md shadow-[#365CB8] rounded-lg">
+          <div className="wcuCard flex flex-col items-center py-5 px-10">
             <div className="w-16 h-16 rounded-full bg-[#DAA520]/10 flex items-center justify-center mb-5">
               <FaClock className="text-[#DAA520] text-3xl" />
             </div>
-            <h2>Timely Delivery</h2>
+            <h2 className="font-space text-2xl font-semibold">Timely Delivery</h2>
           </div>
-          <div className="wcuCard flex flex-col items-center py-5 px-10 shadow-md shadow-[#365CB8] rounded-lg">
+          <div className="wcuCard flex flex-col items-center py-5 px-10">
             <div className="w-16 h-16 rounded-full bg-[#DAA520]/10 flex items-center justify-center mb-5">
               <GiBulldozer className="text-[#DAA520] text-3xl" />
             </div>
-            <h2>Modern Equipment</h2>
+            <h2 className="font-space text-2xl font-semibold">Modern Equipment</h2>
           </div>
-          <div className="wcuCard flex flex-col items-center py-5 px-10 shadow-md shadow-[#365CB8] rounded-lg">
+          <div className="wcuCard flex flex-col items-center py-5 px-10">
             <div className="w-16 h-16 rounded-full bg-[#DAA520]/10 flex items-center justify-center mb-5">
               <FaShieldAlt className="text-[#DAA520] text-3xl" />
             </div>
-            <h2>Safety First</h2>
+            <h2 className="font-space text-2xl font-semibold">Safety First</h2>
           </div>
-          <div className="wcuCard flex flex-col items-center py-5 px-5 shadow-md shadow-[#365CB8] rounded-lg">
+          <div className="wcuCard flex flex-col items-center py-5 px-5">
             <div className="w-16 h-16 rounded-full bg-[#DAA520]/10 flex items-center justify-center mb-5">
               <FaComments className="text-[#DAA520] text-3xl" />
             </div>
-            <h2>Transparent Communication</h2>
+            <h2 className="font-space text-2xl font-semibold">Transparent Communication</h2>
           </div>
-          <div className="wcuCard flex flex-col items-center py-5 px-5 shadow-md shadow-[#365CB8] rounded-lg">
+          <div className="wcuCard flex flex-col items-center py-5 px-5">
             <div className="w-16 h-16 rounded-full bg-[#DAA520]/10 flex items-center justify-center mb-5">
               <FaAward className="text-[#DAA520] text-3xl" />
             </div>
-            <h2>Quality Assurance</h2>
+            <h2 className="font-space text-2xl font-semibold">Quality Assurance</h2>
           </div>
         </div>
       </section>
